@@ -1,0 +1,36 @@
+ul
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    max-width: calc(3 * 300px + 2 * 24px);
+    margin: 0 auto;
+}
+
+.gallery-item {
+    width: calc((100% - 2 * 24px) / 3);
+}
+
+.gallery-image
+{
+    width: 300px;
+}
+.modalContainer
+{
+    background: #2E2F42CC;
+}
+.modalImg
+{
+    margin: 0 auto;
+    width: 1112px;
+    height: 640px;
+
+    
+}
